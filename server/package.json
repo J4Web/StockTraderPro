@@ -1,0 +1,58 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "copy-assets": "copyfiles -u 1 src/**/*.{csv,proto} dist/",
+    "build": "yarn && tsc && yarn copy-assets",
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "preinstall": "npx only-allow yarn"
+  },
+  "author": "j4web",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.0.0-0",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.0.0",
+    "ioredis": "^5.3.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.2",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.4",
+    "protobufjs": "^7.2.5",
+    "qs": "^6.11.2",
+    "socket.io": "^4.7.2",
+    "upstox-js-sdk": "^2.1.0",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/csv-parse": "^1.2.2",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.6.2",
+    "@types/node-schedule": "^2.1.2",
+    "@types/qs": "^6.9.9",
+    "@types/ws": "^8.5.6",
+    "copyfiles": "^2.4.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
