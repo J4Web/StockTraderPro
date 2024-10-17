@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="130 20 70 30" width="25" height="25">
+    <defs>
+      <filter id="shadow">
+        <feDropShadow dx="2" dy="2" stdDeviation="1" flood-opacity="0.3" />
+      </filter>
+    </defs>
+   
+    <polyline points="140,40 150,30 160,35 170,25 180,35" fill="none" stroke="#66BB6A" stroke-width="3" />
+  </svg>
