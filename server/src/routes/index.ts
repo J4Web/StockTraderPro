@@ -11,9 +11,7 @@ const router = Router();
 
 
 app.use(cors({
-    origin: 'https://stock-trader-pro.vercel.app',
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    credentials: true,
+    origin: '*'
 }));
 
 
