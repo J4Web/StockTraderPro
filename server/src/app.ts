@@ -1,17 +1,15 @@
 import express from 'express';
-import helmet from 'helmet';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import useRoutes from './routes';
 
 const app = express();
 
-app.use(helmet());
 app.disable('x-powered-by');
 
 const whiteList = [
   'http://localhost:3000',
-  'https://stock-platform.vercel.app',
+  'https://stock-trader-pro.vercel.app/'
 ];
 
 const corsOption = {
