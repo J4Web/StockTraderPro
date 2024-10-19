@@ -7,10 +7,7 @@ const app = express();
 
 app.disable('x-powered-by');
 
-const whiteList = [
-  'http://localhost:3000',
-  'https://stock-trader-pro.vercel.app/'
-];
+const whiteList = ["*"];
 
 const corsOption = {
   origin: whiteList,
