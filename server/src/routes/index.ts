@@ -10,9 +10,7 @@ const router = Router();
 
 
 
-app.use(cors({
-    origin: '*'
-}));
+app.use(cors);
 
 
 router.use('/', pingRoute);
