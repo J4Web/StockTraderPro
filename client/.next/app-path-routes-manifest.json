@@ -1,0 +1,8 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/oauth/page": "/oauth",
+  "/signup/page": "/signup",
+  "/signin/page": "/signin",
+  "/chart/[market]/[symbol]/page": "/chart/[market]/[symbol]"
+}

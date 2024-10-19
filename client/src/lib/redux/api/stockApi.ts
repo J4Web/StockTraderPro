@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 export const stockApi = createApi({
   reducerPath: 'stockApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: `${process.env.NEXT_PUBLIC_BACKEND_URL}/api`,
+    baseUrl: `${"https://stocktraderpro.onrender.com"}/api`,
   }),
   tagTypes: ['stocks', 'history'],
   endpoints: (builder) => ({
