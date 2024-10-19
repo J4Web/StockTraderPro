@@ -7,14 +7,16 @@ const app = express();
 
 app.disable('x-powered-by');
 
-
-
-const corsOption = {
-  origin: "*",
+const corsOptions = {
+  origin: 'https://stock-trader-pro.vercel.app',
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
   credentials: true,
+  allowedHeaders: ['Content-Type', 'Authorization'],
 };
 
-app.use(cors(corsOption));
+app.use(cors(corsOptions));
+app.options('*', cors(corsOptions));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
