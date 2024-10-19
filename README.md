@@ -2,7 +2,7 @@
 
 Welcome to **StockTraderPro**, your ultimate solution for managing and analyzing stock trades efficiently.
 
-![StockTraderPro Logo](../StockTraderPro/client/public/trends/upward.svg)
+![Dashboard](./appImgs/hero.png)
 
 ## Features
 
@@ -10,6 +10,8 @@ Welcome to **StockTraderPro**, your ultimate solution for managing and analyzing
 - **Portfolio Management**: Track your investments and performance.
 - **Advanced Analytics**: Utilize charts and graphs to make informed decisions.
 - **Alerts & Notifications**: Stay updated with custom alerts.
+
+![Portfolio](./appImgs/stock-chart.png)
 
 ## Installation
 
