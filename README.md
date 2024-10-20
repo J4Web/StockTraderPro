@@ -48,6 +48,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries or feedback, please contact us at [support@stocktraderpro.com](mailto:support@stocktraderpro.com).
 
-![Stock Analysis](path/to/stock_analysis.png)
 
 Thank you for using StockTraderPro!
