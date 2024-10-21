@@ -36,13 +36,3 @@ Welcome to **StockTraderPro**, your ultimate solution for managing and analyzing
    ```
 2. Open your browser and go to `http://localhost:3000`.
 
-## Contributing
-
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
-Thank you for using StockTraderPro!
